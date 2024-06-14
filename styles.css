@@ -164,7 +164,7 @@ body {
 .text-box {
     font-size: 18px;
     padding: 2%;
-    font-family: aptos;
+    font-family: monospace;
     background-color: transparent;
     margin-left: 8%;
     margin-right: 8%;
@@ -174,7 +174,7 @@ body {
     font-size: 50px;
     padding-left: 10%;
     padding-right: 10%;
-    font-family: aptos;
+    font-family: monospace;
 }
 .subtitle {
     font-size: 10px;
@@ -210,7 +210,7 @@ body {
 }
 .nav-bar-text{
     font-size: 40px;
-    font-family: aptos;
+    font-family: monospace;
     font-weight: bold;
     color: yellow;
     padding: 0px;
