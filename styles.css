@@ -159,12 +159,12 @@ body {
     top: 0px;
     text-shadow: 10px black;
     background-color: beige;
-    font-family: aptos;
+    font-family: sans-serif;
 }
 .text-box {
     font-size: 18px;
     padding: 2%;
-    font-family: monospace;
+    font-family: sans-serif;
     background-color: transparent;
     margin-left: 8%;
     margin-right: 8%;
@@ -174,7 +174,7 @@ body {
     font-size: 50px;
     padding-left: 10%;
     padding-right: 10%;
-    font-family: monospace;
+    font-family: sans-serif;
 }
 .subtitle {
     font-size: 10px;
