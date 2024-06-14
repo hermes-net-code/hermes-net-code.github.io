@@ -1,0 +1,228 @@
+#nav-bar {
+    transition-duration: 0.2s;
+}
+#nav-bar1 {
+    transition-duration: 0.2s;
+}
+.nav-bar {
+    background-color: aqua;
+}
+td{
+    margin: none;
+}
+
+/*==================================*/
+
+/*==================================*/
+#info-title-1 {
+    transition-duration: 0.5s;
+}
+#info-icon-1 {
+    transition-duration: 0.5s;
+}
+#info-text-1 {
+    transition-duration: 0.01s;
+}
+
+#info-title-2 {
+    transition-duration: 0.5s;
+}
+#info-icon-2 {
+    transition-duration: 0.5s;
+}
+#info-text-2 {
+    transition-duration: 0.01s;
+}
+
+#info-title-3 {
+    transition-duration: 0.5s;
+}
+#info-icon-3 {
+    transition-duration: 0.5s;
+}
+#info-text-3 {
+    transition-duration: 0.01s;
+}
+
+#info-title-4 {
+    transition-duration: 0.5s;
+}
+#info-icon-4 {
+    transition-duration: 0.5s;
+}
+#info-text-4 {
+    transition-duration: 0.01s;
+}
+/*==================================*/
+
+/*============Info Boxes============*/
+.info-box-text {
+    font-size: 0px;
+    margin: none;
+    padding: none;
+    text-align: center;
+}
+.info-box {
+    background-color: transparent;
+    width: 40%;
+    font-family: fantasy;
+    margin-left: 10%;
+    height: 350px;
+    width: 450px;
+    transition: 0.5s;
+}
+.info-box-icon {
+    
+}
+.info-box-title {
+    font-weight: bold;
+    font-size: 28px;
+    color: yellow;
+    margin: none;
+    padding: none;
+    text-align: center;
+}
+.vertical-center {
+    padding: 12%;
+}
+/*==================================*/
+
+/*==================================*/
+.bg-scroll1 {
+    background-image: url(drone3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-scroll2 {
+    background-image: url(sky-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.flying-text {
+    background-color: transparent;
+    width: 100%;
+    margin-left: 0px;
+    padding: 3px;
+    margin: none;
+}
+
+.about {
+    background-image: url(drone2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.image {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.video-overlay {
+    position: relative;
+    top
+}
+#myvideo {
+    width: 100%;
+    z-index: -1;
+}
+/*==================================*/
+.about-section {
+    width: 70%;
+    border: 0px solid red;
+}
+/*============Page Setup============*/
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+.home {
+    
+}
+.footer {
+    background-color: beige;
+    width: 100%;
+    height: 200px;
+    bottom: 0px;
+    position: absolute;
+}
+/*==================================*/
+
+/*===============Text===============*/
+.title {
+    font-size: 50px;
+    color: darkturquoise;
+    position: absolute;
+    margin-top: 10px;
+    left: 30px;
+    top: 0px;
+    text-shadow: 10px black;
+    background-color: beige;
+    font-family: aptos;
+}
+.text-box {
+    font-size: 18px;
+    padding: 2%;
+    font-family: aptos;
+    background-color: transparent;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 36px;
+}
+.text-box-title {
+    font-size: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: aptos;
+}
+.subtitle {
+    font-size: 10px;
+}
+@font-face {
+    font-family: aptos;
+    src: url(aptos.ttf);
+}
+/*==================================*/
+
+/*============Navigation============*/
+.navigation-bar {
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    margin: 0px;
+}
+.navigation-box {
+    padding: 20px;
+    width: 40px;
+    height: 10px;
+    text-align: center;
+}
+.navigation-row {
+    border: solid 2px red;
+}
+.navbar-link {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: cursive;
+}
+.nav-bar-text{
+    font-size: 40px;
+    font-family: aptos;
+    font-weight: bold;
+    color: yellow;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-bar-text:hover {
+    text-decoration: underline;
+}
+/*==================================*/
+
+/*==============Images==============*/
+.logo {
+    padding: 10px;
+    width: 400px;
+}

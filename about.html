@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<head>
+
+</head>
+
+<body>
+    <a href="index.html">
+        <img class="logo" src="Hermes%20Net%20Website%20Logo.png">
+    </a>
+    
+    <table class="navigation-bar">
+        <tr class="navigation-row">
+            <td class="navigation-box">
+                <a href="index.html" class="navbar-link">
+                    <p class="nav-bar-text">HOME</p>
+                </a>
+            </td>
+            <td class="navigation-box">
+                <a href="about.html" class="navbar-link">
+                    <p class="nav-bar-text" style="text-decoration: underline;">ABOUT</p> 
+                </a>
+            </td>
+            <td class="navigation-box">
+                <a href="contact.html" class="navbar-link"> 
+                    <p class="nav-bar-text">TEAM</p>
+                </a>
+            </td>
+        </tr>
+    </table>
+    
+    <br>
+    <br>
+    
+    <center><p class="text-box-title">Our Drones</p></center>
+    
+    <table class="about-section">
+        <tr>
+            <td>
+                <div class="info-box" id="info-box-1">
+                    <div class="vertical-center">
+                    <center><img class="info-box-icon" src="waypoint.png" style="width: 120px;" id="info-icon-1"></center>
+                    <p class="info-box-title" id="info-title-1">Waypoint Technology</p>
+                    <p class="info-box-text" id="info-text-1">Waypoint technology allows drones to fly autanomously in a set pattern. this will allow hermes net to automatically fly in a way that provide optimal coverage over the affected area</p>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="info-box" id="info-box-2">
+                    <div class="vertical-center">
+                    <center><img src="runway.png" style="width: 190px;" id="info-icon-2"></center>
+                    <p class="info-box-title" id="info-title-2">Runway Independant</p>
+                    <p class="info-box-text" id="info-text-2">Hermesnet will be runway independant, meaning it can be launched from many different locations and does not require a large area for take off.</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br><br><br><br><br>
+                <div class="info-box" id="info-box-3">
+                    <div class="vertical-center">
+                    <center><img src="Repeater.png" style="width: 180px;" id="info-icon-3"></center>
+                    <p class="info-box-title" id="info-title-3">Cellular Repeater Technology</p>
+                    <p class="info-box-text" id="info-text-3">Cellular repeaters abord our drones will amplify the signal from far away cell towers delivering service to the affected area.</p>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <br><br><br><br><br>
+                <div class="info-box" id="info-box-4">
+                    <br><br>
+                    <center><img src="Weight.png" style="width: 130px;" id="info-icon-4"></center>
+                    <p class="info-box-title" id="info-title-4">Lifting Capacity</p>
+                    <p class="info-box-text" id="info-text-4">The estimated lifting capacity of the drones is 60Lbs, enough to keep our repeaters in the sky.</p>
+                </div>
+            </td>
+        </tr>
+        </table>
+        
+        <br>
+        
+        <center><p class="text-box-title">Drone Storage</p></center>
+        <table class="about-section">
+        <tr>
+            <td>
+                <div class="info-box">
+                    <p class="info-box-title">Repair and Maintanence</p>
+                    <p>Using repeaters, hermesnet can connect to out of range, working cell towers to amplify the signal</p>
+                </div>
+            </td>
+            <td>
+                <div class="info-box">
+                    <p class="info-box-title">Battery Charging Station</p>
+                    <p>Our mobile charging stations allow the drone to remain charged and ready on the go.</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="info-box">
+                    <p class="info-box-title">3D Printing</p>
+                    <p>Using 3D printers to manufacture drone parts ensures rapid deployment and repair</p>
+                </div>
+            </td>
+            <td>
+                <div class="info-box">
+                    <p class="info-box-title">Drone Monitoring</p>
+                    <p>Monitoring the drones </p>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+    <script>
+    //=============================================================================
+    document.getElementById("info-box-1").onmouseover = function() {
+        document.getElementById("info-box-1").style.backgroundColor = "black";
+        document.getElementById("info-title-1").style.fontSize = "0px";
+        document.getElementById("info-icon-1").style.width = "80px";
+        document.getElementById("info-text-1").style.fontSize = "32px";
+        document.getElementById("info-text-1").style.transitionDelay = "0.4s";
+    }
+    document.getElementById("info-box-1").onmouseout = function() {
+        document.getElementById("info-box-1").style.backgroundColor = "transparent";
+        document.getElementById("info-title-1").style.fontSize = "28px";
+        document.getElementById("info-icon-1").style.width = "120px";
+        document.getElementById("info-text-1").style.fontSize = "0px";
+        document.getElementById("info-text-1").style.transitionDelay = "0s";
+    }
+    //=============================================================================
+    document.getElementById("info-box-2").onmouseover = function() {
+        document.getElementById("info-box-2").style.backgroundColor = "black";
+        document.getElementById("info-title-2").style.fontSize = "0px";
+        document.getElementById("info-icon-2").style.width = "140px";
+        document.getElementById("info-text-2").style.fontSize = "32px";
+        document.getElementById("info-text-2").style.transitionDelay = "0.4s";
+    }
+    document.getElementById("info-box-2").onmouseout = function() {
+        document.getElementById("info-box-2").style.backgroundColor = "transparent";
+        document.getElementById("info-title-2").style.fontSize = "28px";
+        document.getElementById("info-icon-2").style.width = "190px";
+        document.getElementById("info-text-2").style.fontSize = "0px";
+        document.getElementById("info-text-2").style.transitionDelay = "0s";
+    }
+    //=============================================================================
+    document.getElementById("info-box-3").onmouseover = function() {
+        document.getElementById("info-box-3").style.backgroundColor = "black";
+        document.getElementById("info-title-3").style.fontSize = "0px";
+        document.getElementById("info-icon-3").style.width = "120px";
+        document.getElementById("info-text-3").style.fontSize = "32px";
+        document.getElementById("info-text-3").style.transitionDelay = "0.4s";
+    }
+    document.getElementById("info-box-3").onmouseout = function() {
+        document.getElementById("info-box-3").style.backgroundColor = "transparent";
+        document.getElementById("info-title-3").style.fontSize = "28px";
+        document.getElementById("info-icon-3").style.width = "180px";
+        document.getElementById("info-text-3").style.fontSize = "0px";
+        document.getElementById("info-text-3").style.transitionDelay = "0s";
+    }
+    //=============================================================================
+    document.getElementById("info-box-4").onmouseover = function() {
+        document.getElementById("info-box-4").style.backgroundColor = "black";
+        document.getElementById("info-title-4").style.fontSize = "0px";
+        document.getElementById("info-icon-4").style.width = "120px";
+        document.getElementById("info-text-4").style.fontSize = "32px";
+        document.getElementById("info-text-4").style.transitionDelay = "0.4s";
+    }
+    document.getElementById("info-box-4").onmouseout = function() {
+        document.getElementById("info-box-4").style.backgroundColor = "transparent";
+        document.getElementById("info-title-4").style.fontSize = "28px";
+        document.getElementById("info-icon-4").style.width = "130px";
+        document.getElementById("info-text-4").style.fontSize = "0px";
+        document.getElementById("info-text-4").style.transitionDelay = "0s";
+    }
+    //=============================================================================
+    </script> 
+    
+</body>
